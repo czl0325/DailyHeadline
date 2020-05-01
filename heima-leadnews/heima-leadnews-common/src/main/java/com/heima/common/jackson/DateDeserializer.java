@@ -7,6 +7,9 @@ import com.fasterxml.jackson.databind.JsonDeserializer;
 import java.io.IOException;
 import java.util.Date;
 
+/**
+ * 用于处理日期输入反序列化
+ */
 public class DateDeserializer extends JsonDeserializer<Object> {
 
     JsonDeserializer<Object>  deserializer = null;

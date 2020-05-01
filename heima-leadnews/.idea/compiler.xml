@@ -2,14 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="heima-leadnews-apis" />
         <module name="heima-leadnews-common" />
+        <module name="heima-leadnews-behavior" />
         <module name="heima-leadnews-utils" />
         <module name="heima-leadnews-model" />
-        <module name="heima-leadnews-apis" />
+        <module name="heima-leadnews-article" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +22,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="heima-leadnews-apis" options="-parameters" />
+      <module name="heima-leadnews-article" options="-parameters" />
+      <module name="heima-leadnews-behavior" options="-parameters" />
       <module name="heima-leadnews-common" options="-parameters" />
       <module name="heima-leadnews-model" options="-parameters" />
       <module name="heima-leadnews-utils" options="-parameters" />

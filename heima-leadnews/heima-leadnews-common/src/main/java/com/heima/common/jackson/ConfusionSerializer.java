@@ -7,6 +7,9 @@ import com.heima.utils.common.IdsUtils;
 
 import java.io.IOException;
 
+/**
+ * 用于序列化自增数字的混淆
+ */
 public class ConfusionSerializer extends JsonSerializer<Object> {
 
     public  void serialize(Object value, JsonGenerator jsonGenerator, SerializerProvider serializers) throws IOException {

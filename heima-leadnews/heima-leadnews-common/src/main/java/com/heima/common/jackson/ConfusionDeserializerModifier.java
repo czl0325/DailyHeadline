@@ -10,6 +10,9 @@ import com.heima.model.annotation.IdEncrypt;
 
 import java.util.Iterator;
 
+/**
+ * 用于过滤反序列化时处理的字段
+ */
 public class ConfusionDeserializerModifier extends BeanDeserializerModifier {
 
     @Override

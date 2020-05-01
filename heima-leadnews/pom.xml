@@ -13,6 +13,7 @@
         <module>heima-leadnews-utils</module>
         <module>heima-leadnews-apis</module>
         <module>heima-leadnews-model</module>
+        <module>heima-leadnews-article</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->
@@ -71,6 +72,11 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.27.0-GA</version>
         </dependency>
     </dependencies>
     <dependencyManagement>

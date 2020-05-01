@@ -8,6 +8,9 @@ import com.heima.utils.common.IdsUtils;
 
 import java.io.IOException;
 
+/**
+ * 用于反序列化自增数字的混淆解密
+ */
 public class ConfusionDeserializer extends JsonDeserializer<Object> {
 
     JsonDeserializer<Object>  deserializer = null;
